@@ -186,9 +186,44 @@
         <h2 class="display-5">Contact</h2>
         <p class="mt-4">Got questions or ideas? I'd love to hear from you! Whether you're interested in collaboration, have inquiries about my projects, or wish to request a copy of my CV, please don't hesitate to get in touch. I'm always open to discussing new opportunities and how we can work together to create something amazing!</p>
       </div>
-      <div class="col-12 col-md-10 col-lg-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, facilis aliquid! Ratione, voluptatem, sapiente adipisci iusto facilis consequatur doloremque repellendus ipsum repellat placeat voluptatibus. Iste molestias ullam vel debitis rem!</div>
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <!--Add you form here-->
+
+        <form class="row g-3">
+          
+          <div class="col-lg-4">
+            <label for="inputFullName" class="form-label">Full name</label>
+            <input type="text" class="form-control" id="inputFullName" placeholder="">
+          </div>
+
+          <div class="col-lg-4">
+            <label for="inputPhone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="inputPhone" placeholder="">
+          </div>
+          
+          <div class="col-lg-4">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          
+          <div class="col-12">
+            <label for="inputMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+
+        </form>
+      </div>
     </div>
   </footer>
+
+
+
+
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
