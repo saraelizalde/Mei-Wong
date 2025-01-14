@@ -65,6 +65,14 @@
         <p class="lead mb-5">Let's create something amazing together!</p>
       </div>
     </section>
+    <!-- Button trigger modal -->
+    <div class="container d-flex justify-content-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Subscribe to my newsletter !
+      </button>
+    </div>
+
+
   </header>
 
   <!-- main content -->
@@ -184,14 +192,16 @@
     <div class="row justify-content-center">
       <div class="col-12 text-cneter my-4">
         <h2 class="display-5">Contact</h2>
-        <p class="mt-4">Got questions or ideas? I'd love to hear from you! Whether you're interested in collaboration, have inquiries about my projects, or wish to request a copy of my CV, please don't hesitate to get in touch. I'm always open to discussing new opportunities and how we can work together to create something amazing!</p>
+        <p class="mt-4">Got questions or ideas? I'd love to hear from you! Whether you're interested in collaboration,
+          have inquiries about my projects, or wish to request a copy of my CV, please don't hesitate to get in touch.
+          I'm always open to discussing new opportunities and how we can work together to create something amazing!</p>
       </div>
       <div class="col-12 col-md-10 col-lg-8">
 
         <!--Add you form here-->
 
         <form class="row g-3">
-          
+
           <div class="col-lg-4">
             <label for="inputFullName" class="form-label">Full name</label>
             <input type="text" class="form-control" id="inputFullName" placeholder="">
@@ -201,12 +211,12 @@
             <label for="inputPhone" class="form-label">Phone Number</label>
             <input type="tel" class="form-control" id="inputPhone" placeholder="">
           </div>
-          
+
           <div class="col-lg-4">
             <label for="inputEmail4" class="form-label">Email</label>
             <input type="email" class="form-control" id="inputEmail4">
           </div>
-          
+
           <div class="col-12">
             <label for="inputMessage" class="form-label">Message</label>
             <textarea class="form-control" id="inputMessage" rows="3"></textarea>
@@ -221,7 +231,35 @@
     </div>
   </footer>
 
-
+  <!-- Modal -->
+  <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-footer">
+          <form class="row g-3">
+            <p>Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered
+              straight to your inbox.</p>
+              
+            <div class="mb-3 col-lg-6">
+              <label for="emailInputModal" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailInputModal" placeholder="">
+            </div>
+            <div class="mb-3 col-lg-6">
+              <label for="nameInputModal" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nameInputModal" placeholder="">
+            </div>
+            
+          </form>
+          <button type="button" class="btn btn-primary col- 12 col-md-6">Sign up!</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
