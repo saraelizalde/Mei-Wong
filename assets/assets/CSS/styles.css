@@ -19,8 +19,13 @@ h1, h2{
     color: #184f63; /*dark-blue*/
 }
 
-#hero{
-    background-image: assets/image/hero-image.webp;
+#hero {
+    background-color: #dbdcde; /* light grey */
+    background-image: url("../images/background.webp");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 5% 7%;
 }
 
 /*About Section*/
